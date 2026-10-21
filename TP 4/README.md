@@ -42,4 +42,10 @@ Ouvrir `TP 4/index.html` avec l'extension Live Server de Visual Studio Code.
 3. Filtrer les commandes par statut.
 4. Filtrer les commandes par catégorie de produit.
 5. Cliquer sur « Voir le détail » pour consulter les informations d'une commande.
+## Relations entre les données
+- Chaque commande est liée à un client grâce à `customerId`.
+- Chaque produit commandé est identifié par `productId`.
+- La quantité permet de calculer le montant de chaque ligne.
+- Le total d'une commande est calculé à partir des prix et des quantités.
+
 
