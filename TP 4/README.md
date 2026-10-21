@@ -36,3 +36,10 @@ L'application utilise trois fichiers JSON :
 
 ## Lancement
 Ouvrir `TP 4/index.html` avec l'extension Live Server de Visual Studio Code.
+## Utilisation
+1. Lancer l'application avec Live Server.
+2. Rechercher un client par son nom.
+3. Filtrer les commandes par statut.
+4. Filtrer les commandes par catégorie de produit.
+5. Cliquer sur « Voir le détail » pour consulter les informations d'une commande.
+
