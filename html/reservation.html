@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelGo - Réservation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/reservation.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-travel">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            ✈ TravelGo
+        </a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="offres.html">Offres</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="reservation.html">Réservation</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- HEADER -->
+
+<section class="page-header">
+
+    <div class="container text-center">
+
+        <p class="section-title">VOTRE VOYAGE COMMENCE ICI</p>
+
+        <h1>Réservez votre voyage</h1>
+
+        <p>
+            Remplissez le formulaire ci-dessous pour effectuer
+            votre demande de réservation.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FORMULAIRE -->
+
+<section class="reservation-section">
+
+    <div class="container">
+
+        <div class="reservation-box">
+
+            <div class="row g-5">
+
+                <!-- INFORMATIONS -->
+
+                <div class="col-lg-5">
+
+                    <div class="reservation-info">
+
+                        <span class="section-title">
+                            TRAVELGO
+                        </span>
+
+                        <h2>
+                            Préparez votre prochaine aventure
+                        </h2>
+
+                        <p>
+                            Choisissez votre destination,
+                            indiquez vos dates et renseignez
+                            vos informations.
+                        </p>
+
+                        <div class="info-item">
+
+                            <i class="bi bi-check-circle-fill"></i>
+
+                            <span>
+                                Réservation simple et rapide
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <i class="bi bi-check-circle-fill"></i>
+
+                            <span>
+                                Destinations variées
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <i class="bi bi-check-circle-fill"></i>
+
+                            <span>
+                                Assistance disponible
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULAIRE -->
+
+                <div class="col-lg-7">
+
+                    <form>
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Nom
+                                </label>
+
+                                <input id="nom"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Votre nom"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Prénom
+                                </label>
+
+                                <input id="prenom"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Votre prénom"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Email
+                                </label>
+
+                                <input id="email"
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="exemple@email.com"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Destination
+                                </label>
+
+                                <select id="destination" class="form-select" required>
+
+                                    <option value="">
+                                        Choisir une destination
+                                    </option>
+
+                                    <option>Marrakech</option>
+                                    <option>Paris</option>
+                                    <option>Istanbul</option>
+                                    <option>Dubaï</option>
+                                    <option>Rome</option>
+                                    <option>Barcelone</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Nombre de personnes
+                                </label>
+
+                                <select id="personnes" class="form-select">
+
+                                    <option>1 personne</option>
+                                    <option>2 personnes</option>
+                                    <option>3 personnes</option>
+                                    <option>4 personnes</option>
+                                    <option>5 personnes ou plus</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Date de départ
+                                </label>
+
+                                <input id="depart"
+                                    type="date"
+                                    class="form-control"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Date de retour
+                                </label>
+
+                                <input retour
+                                    type="date"
+                                    class="form-control"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    rows="4"
+                                    placeholder="Informations supplémentaires..."></textarea>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary w-100">
+
+                                    <i class="bi bi-send"></i>
+                                    Envoyer ma réservation
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container text-center">
+
+        <h3>✈ TravelGo</h3>
+
+        <p>Voyagez. Explorez. Découvrez.</p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Accueil</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="offres.html">Offres</a>
+            <a href="reservation.html">Réservation</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <hr>
+
+        <p>© 2026 TravelGo - Projet universitaire</p>
+
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

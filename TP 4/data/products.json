@@ -1,0 +1,58 @@
+[
+  {
+    "id": 10,
+    "name": "Sac de voyage",
+    "category": "Voyage",
+    "price": 350,
+    "stock": 20
+  },
+  {
+    "id": 11,
+    "name": "Valise cabine",
+    "category": "Voyage",
+    "price": 650,
+    "stock": 15
+  },
+  {
+    "id": 12,
+    "name": "Sac a dos",
+    "category": "Voyage",
+    "price": 220,
+    "stock": 30
+  },
+  {
+    "id": 13,
+    "name": "Appareil photo",
+    "category": "Electronique",
+    "price": 2800,
+    "stock": 8
+  },
+  {
+    "id": 14,
+    "name": "Ecouteurs",
+    "category": "Electronique",
+    "price": 450,
+    "stock": 25
+  },
+  {
+    "id": 15,
+    "name": "Chargeur portable",
+    "category": "Electronique",
+    "price": 300,
+    "stock": 18
+  },
+  {
+    "id": 16,
+    "name": "Guide touristique",
+    "category": "Accessoires",
+    "price": 90,
+    "stock": 40
+  },
+  {
+    "id": 17,
+    "name": "Porte-passeport",
+    "category": "Accessoires",
+    "price": 120,
+    "stock": 35
+  }
+]

@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": 1,
+    "name": "Marrakech",
+    "country": "Maroc",
+    "category": "Culture",
+    "price": 1500,
+    "active": true,
+    "description": "Découvrez les souks, les jardins et la médina de Marrakech."
+  },
+  {
+    "id": 2,
+    "name": "Agadir",
+    "country": "Maroc",
+    "category": "Plage",
+    "price": 1200,
+    "active": true,
+    "description": "Profitez des plages et du soleil d'Agadir."
+  },
+  {
+    "id": 3,
+    "name": "Paris",
+    "country": "France",
+    "category": "Culture",
+    "price": 3500,
+    "active": true,
+    "description": "Visitez la tour Effel et les monuments de Paris."
+  },
+  {
+    "id": 4,
+    "name": "Istanbul",
+    "country": "Turquie",
+    "category": "Culture",
+    "price": 2800,
+    "active": true,
+    "description": "Explorez les marchés et les monuments historiques."
+  },
+  {
+    "id": 5,
+    "name": "Dubai",
+    "country": "Émirats arabes",
+    "category": "Luxe",
+    "price": 5000,
+    "active": true,
+    "description": "Découvrez les gratte-ciel et les centres commerciaux."
+  },
+  {
+    "id": 6,
+    "name": "Bali",
+    "country": "Indonésie",
+    "category": "Nature",
+    "price": 6500,
+    "active": false,
+    "description": "Découvrez les plages, les rizières et les temples."
+  },
+  {
+    "id": 7,
+    "name": "Rome",
+    "country": "Italie",
+    "category": "Culture",
+    "price": 3200,
+    "active": true,
+    "description": "Visitez le Colisée et les monuments romains."
+  },
+  {
+    "id": 8,
+    "name": "Maldives",
+    "country": "Maldives",
+    "category": "Plage",
+    "price": 7000,
+    "active": false,
+    "description": "Profitez des plages et des eaux turquoise."
+  }
+]

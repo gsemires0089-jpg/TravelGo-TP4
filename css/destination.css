@@ -1,0 +1,83 @@
+
+/* =========================================================
+   GENERAL
+========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1d3545;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar-travel {
+    background-color: #0b3548;
+    padding: 16px 0;
+}
+
+.navbar-travel .navbar-brand {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar-travel .navbar-brand:hover {
+    color: #42dbc3;
+}
+
+.navbar-travel .navbar-brand i {
+    color: #42dbc3;
+    margin-right: 6px;
+}
+
+.navbar-travel .nav-link {
+    color: #ffffff !important;
+    margin-left: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-travel .nav-link:hover {
+    color: #42dbc3 !important;
+}
+
+.navbar-travel .nav-link.active {
+    color: #42dbc3 !important;
+}
+
+/* Bouton hamburger */
+
+.navbar-travel .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-travel .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-travel .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+
+/* =========================================================
+   PAGE HEADER
+========================================================= */
+
+.page-header {
+    background-color: #f3f8fa;
+    padding: 80px 0;
+}
